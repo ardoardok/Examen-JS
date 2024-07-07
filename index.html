@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Recettes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestion de Recettes</h1>
+        <p> Bonjour et bienvenue sur notre application de gestion de recettes.Veuillez remplir les champs suivants:</p>
+        <form id="recipe-form">
+            <input type="text" id="recipe-title" placeholder="Nom de la Recette" required>
+            <textarea id="recipe-ingredients" placeholder="Liste des Ingrédients" required></textarea>
+            <textarea id="recipe-steps" placeholder=" Étape de cuisson" required></textarea>
+            <button type="submit">Ajouter Recette</button>
+        </form>
+        <div id="recipe-list">
+            <p> Voici les recettes disponibles</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
